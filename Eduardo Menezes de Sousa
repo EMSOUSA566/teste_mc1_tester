@@ -1,0 +1,82 @@
+# Teste para Testadores
+
+
+1. O teste deve ser enviado por e-mail ao recrutador no formato PDF. O nome do arquivo deve ser o próprio nome.
+
+2. Qual é a missão de um testador de software?
+R: Melhorar a qualidade dos sistemas por meio da definição e normatização de processos de desenvolvimento garantindo que o produto final satisfaça às expectativas do cliente.
+
+
+3. Em que momento devem ser realizados os testes de software?
+R: Utilizado após desenvolvimento de um software ou alteração do mesmo e envolve ações que vão do levantamento de requisitos até a execução do teste propriamente dito.
+
+
+4. O que são testes de Caixa-Preta, Caixa-Cinza e Caixa-Branca?  
+  
+R: Teste de caixa-preta é um teste de software para verificar a saída dos dados usando entradas de vários tipos. As entradas não são escolhidas conforme a estrutura do programa.
+Teste de Caixa cinza é uma mescla do uso das técnicas de caixa-preta e de caixa-branca. 
+Teste de caixa-branca é uma técnica de teste que usa a perspectiva interna do sistema para modelar os casos de teste. No teste de software, a perspectiva interna significa basicamente o código fonte. No teste de hardware, cada nó de um circuito pode ser testado.
+
+4.1. Que tipo de teste automatizado deve ser feito em cada um?
+
+
+5. O que é um teste de regressão? Qual sua função?
+R: Teste de regressão onde é realizado após as modificações no sistema para certificar que o que não foi alterado permaneça funcionando antes da atualização do sistema.
+
+
+6. Cite duas ferramentas de automação de testes para web e mobile.
+
+R: Selenium, TesteComplete
+
+7. O que são testes alpha, beta e gama?
+
+R: O teste Alpha é semelhante ao teste de aceitação, o teste alfa usa o sistema de forma não planejada disponibilizando o sistema para um pequeno grupo de pessoas. Essas pessoas participam do projeto dando feedbacks sobre a situação atual em que o sistema se encontra. O teste alfa é frequentemente usado para sistemas de prateleira como forma de teste de aceitação interna.
+
+O teste Beta é realizado por um grande número de pessoas, a execução do sistema ocorre de forma não planejada por pessoas desconhecidas, que não possuem nenhuma relação com a equipe ou empresa desenvolvedora. Frequentemente o teste é utilizado como uma forma de aceitação externa para softwares de prateleira possibilitando avaliar o feedback do mercado.
+
+O teste gama basicamente lança produtos que foram "mal testados" ao mercado e os usuários já tem acesso a aplicação, mesmo que com muitos erros, e os problemas que os usuários encontram são corrigidos quando a aplicação já esta disponível para os usuários finais.
+
+
+8. O que é um plano de testes?
+R: O plano de teste é um documento com uma abordagem sistemática para o teste de sistemas como hardware ou software. Ele geralmente consiste numa modelagem detalhada do fluxo de trabalho durante o processo.  
+  
+
+8.1. Em que o plano de testes deve se basear?
+R: Documentação Funcional.
+
+
+
+9. Quais artefatos são gerados pelo profissional de QA?
+R: Estão destacados os “artefatos de entrada” exigidos como premissa para que cada macro-atividade possa ser realizada. Também são destacados os “artefatos de saída” produzidos como resultado da atividade.
+
+
+10. O que é análise do valor limite? Cite um exemplo.
+R: Análise do Valor Limite é uma técnica de teste de software utilizada para exercitar os limites do domínio de entrada. Considerada um complemento do Particionamento de Equivalência (ou classes de equivalência).
+
+Exemplo: Focalizar a seleção de Casos de Teste nas bordas da classe, ou seja, nos valores próximos às extremidades das classes.
+
+
+11. Qual é a estrutura de um caso de teste?
+
+R: Ele pode ser elaborado para identificar defeitos na estrutura interna do software por meio de situações que exercitem adequadamente todas as estruturas utilizadas na codificação; ou ainda, garantir que os requisitos do software que foi construído sejam plenamente atendidos.
+
+12. O que é BDD?
+R: Behavior-driven development é sobre implementar uma aplicação através da descrição de seu comportamento pela perspectiva, ou seja é um conjunto de práticas ágeis para agilizar o desenvolvimento de software através da integração das User Stories definidas para o software com a automação dos testes funcionais do software desenvolvido.
+
+12.1. Quais são suas principais características?
+R: 1 - A mudança do pensamento voltado apenas para testes unitários;
+2 - A verdadeira colaboração entre os analistas de negócio, os analistas de qualidade e o time de programadores;
+3 - O uso de uma linguagem ubíqua, ou seja, o uso de termos comuns dentro da equipe;  
+  
+
+12.2. Cite ferramentas para implementar BDD em projetos Android e ASP.Net
+R: Android - Cucumber
+Asp.Net - SpecFlow
+
+
+13. _OPCIONAL_ O que significam _Continuous Integration_ e _Continuous Delivery_? Qual a diferença entre eles?
+
+R: Continuous Integration é o nome de uma prática de desenvolvimento de software que visa eliminar percalços como esses, comuns nos departamentos de TI.
+Continuous Delivery é a entrega contínua é a capacidade de obter alterações de todos os tipos, incluindo novos recursos, alterações de configuração, correções de bugs e experimentos , em produção, ou nas mãos dos usuários, com segurança e rapidez de forma sustentável.
+
+Diferança onde Continuous Integration visa desenvolver e Continuous Delivery alterações de novos recursos, ou seja melhorias.
